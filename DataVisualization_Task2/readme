@@ -1,1 +1,28 @@
+# Elevate Labs Internship - Task 2
+## 📊 Data Visualization and Storytelling
+
+### Dataset
+- Superstore.csv (Retail Sales Dataset)
+
+### Tools Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+### Visualizations
+1. Total Sales by Category  
+2. Total Sales by Region  
+3. Profit vs Sales by Category  
+4. Top 10 States by Sales  
+5. Sales Distribution by Ship Mode  
+
+### Key Business Insights
+- Technology category generates the highest total sales.
+- West region contributes the maximum sales.
+- Profit increases with sales in Technology, but some categories show losses at high sales.
+- California and New York are the top sales-performing states.
+- Standard Class is the most common shipping mode for sales.
+
+---
 
