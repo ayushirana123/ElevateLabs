@@ -1,0 +1,6 @@
+SQL-Data-Analysis-Task
+│
+├── ecommerce.sql        (dataset file)
+├── queries.sql          (your written queries)
+├── screenshots/         (folder with query outputs)
+└── README.md            (description of what you did)
