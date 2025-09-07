@@ -1,119 +1,117 @@
 # 🎬 YouTube Trending Video Analytics Dashboard
 
-
-> 📌 Data Analyst Project – Visualize YouTube Trends using Python + Power BI
+> 📌 Data Analytics Project – Exploring YouTube Trends using Python + Power BI
 
 ---
 
-## 📊 Project Summary
+## 📊 Project Overview
 
-This project dives into **YouTube trending videos across five countries** — analyzing views, likes, and categories to uncover what makes content go viral 🌍.
+This project explores **YouTube trending videos across multiple countries**, focusing on views, likes, categories, and regions to discover what makes videos go viral 🌍.  
 
-➡️ Final output: An **interactive Power BI dashboard** + a full **data analysis report** powered by Python.
+➡️ Final output includes:  
+- An **interactive Power BI dashboard**  
+- A complete **Python-based data analysis report**
+
+---
+
 ## 🖼️ Dashboard Preview
 
-> 📌 Full dashboard with filters, charts, and insight!
-> ![image](https://github.com/user-attachments/assets/4fe6e61f-f135-45a6-9f0b-845a7423d4af)
+📌 Interactive dashboard with filters, charts, and insights:  
 
-
-
----
-
-<de
-
-  ## 🔧 Tools & Tech Used
-
-| Tool      | Purpose                         |
-|-----------|---------------------------------|
-| Python 🐍 | Data cleaning, EDA (pandas, matplotlib, seaborn) |
-| Power BI 📊 | Dashboard & Interactive Visuals  |
-| Google Colab 📓 | Python Notebook for Analysis |
-| GitHub 🗂 | Project Repository                |
-
-## 📁 Deliverables
-
-- ✅ `Project(2).ipynb` – Full Python EDA notebook
-- ✅ `YouTube_Dashboard.pbix` – Power BI interactive dashboard
-- ✅ `README.md` – Project walkthrough
-- ✅ `Project_Report.pdf` – Clean summary for internship submission
+![image](https://github.com/user-attachments/assets/4fe6e61f-f135-45a6-9f0b-845a7423d4af)
 
 ---
 
-The dataset contains trending video data from:
-- 🇺🇸 US
-- 🇮🇳 India
-- 🇨🇦 Canada
-- 🇦🇺 Australia
-- 🇬🇧 Great Britain
+## 🔧 Tools & Technologies Used
 
-**Key columns**:
-- `video_id`, `title`, `channelTitle`
-- `category`, `publish_time`, `views`, `likes`, `dislikes`, `comment_count`
-- `region` (added during preprocessing)
-</details>
+| Tool          | Purpose                                |
+|---------------|----------------------------------------|
+| **Python 🐍** | Data cleaning & analysis (pandas, matplotlib, seaborn) |
+| **Power BI 📊** | Dashboard creation & interactive visuals |
+| **Google Colab 📓** | Notebook environment for Python EDA |
+| **GitHub 🗂** | Project repository & documentation |
 
 ---
 
-## 🧠 Objectives
+## 📁 Project Deliverables
 
-- 📌 Understand **which categories** perform best on YouTube
-- 📌 Compare **regional trends** in content consumption
-- 📌 Identify **top-performing channels**
-- 📌 Build a **Power BI dashboard** with filters, visuals, and KPIs
-
-
----
-
-## 🔍 Analysis Workflow
-
-### 🧼 1. Data Cleaning
-- Removed nulls, fixed dtypes, renamed columns
-- Combined 5 regional datasets into 1 master dataset
-- Extracted `publish_date`, `publish_hour`, `day_of_week`
-
-### 📊 2. EDA in Python
-- Visualized **views by category**
-- Bar charts for **top channels**
-- Regional comparison of **likes/comments/views**
-- Heatmap of **trending hours vs days**
-
-### 🖥️ 3. Dashboard in Power BI
-Included:
-- 📌 **Pie Chart** – Top channels by views
-- 📌 **Bar Chart** – Top categories globally
-- 📌 **Map View** – Views by region
-- 📌 **KPI Cards** – Total views, likes, comments
-- 📌 **Slicers** – Region and category filters
+- ✅ `Project.ipynb` – Python notebook with EDA  
+- ✅ `YouTube_Dashboard.pbix` – Power BI interactive dashboard  
+- ✅ `README.md` – Walkthrough & documentation  
+- ✅ `Project_Report.pdf` – Detailed report for submission  
 
 ---
 
-## 📈 Key Insights
+## 🌍 Dataset Information  
 
-✅ **Gaming** is the most viewed category across all countries  
-✅ **Channel 4** and **Channel 9** are the most consistent performers  
-✅ **Canada** and **Great Britain** had the highest average views per video  
-✅ Peak engagement is usually in the **evening hours**, mid-week  
+Trending video data collected from:  
+- 🇺🇸 United States  
+- 🇮🇳 India  
+- 🇨🇦 Canada  
+- 🇦🇺 Australia  
+- 🇬🇧 Great Britain  
 
-
----
-
-
-
-## 📌 How to Use This Repo
-
-1. Clone/download the repo  
-2. Open `Project.ipynb` in Google Colab / Jupyter  
-3. Explore the `Power BI Dashboard` file  
-4. Read `Project_Report.pdf` for a quick summary  
-
-
+**Key columns include**:  
+`video_id`, `title`, `channelTitle`, `category`, `publish_time`, `views`, `likes`, `dislikes`, `comment_count`, `region`  
 
 ---
 
-## 🙋‍♂️ Author
+## 🧠 Project Objectives
 
-SOMYA SINHA – Data Analyst Intern  
-📫 www.linkedin.com/in/somyasinha100
+- 📌 Identify **which categories** get the most views  
+- 📌 Compare **regional differences** in trending videos  
+- 📌 Find **top-performing creators/channels**  
+- 📌 Build a **Power BI dashboard** with KPIs, slicers, and charts  
+
+---
+
+## 🔍 Workflow  
+
+### 1️⃣ Data Cleaning  
+- Removed missing values, corrected data types  
+- Merged datasets from five regions  
+- Extracted `publish_date`, `publish_hour`, and `day_of_week`  
+
+### 2️⃣ Exploratory Data Analysis (Python)  
+- Views vs. categories analysis  
+- Top channels by performance  
+- Regional engagement (likes, comments, views)  
+- Heatmaps of publishing time vs engagement  
+
+### 3️⃣ Dashboard in Power BI  
+Features:  
+- 📊 Bar charts → Top categories  
+- 🗺 Map visuals → Views by region  
+- 🎯 KPI cards → Views, Likes, Comments  
+- 🔘 Filters → Category & Region  
+
+---
+
+## 📈 Key Insights  
+
+✅ **Gaming** consistently tops in views across countries  
+✅ Specific channels dominate with steady performance  
+✅ **Canada & UK** had higher average views than other regions  
+✅ Videos trend most often during **mid-week evenings**  
+
+---
+
+## 📌 How to Use  
+
+1. Clone/download this repository  
+2. Run `Project.ipynb` in Google Colab/Jupyter  
+3. Open the Power BI `.pbix` file for dashboard  
+4. Read the project report (`.pdf`) for insights  
+
+---
+
+## 🙋 Author  
+
+**Ayushi Rana – Data Analyst (MCA Student)**  
+📫 [LinkedIn Profile](https://www.linkedin.com/in/ayushirana123)  
+
+---
+
 
 
 
